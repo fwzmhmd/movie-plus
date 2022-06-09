@@ -177,6 +177,11 @@ button.btn-add {
 
 .btn-add span {
   padding: 0 6px;
+  pointer-events: none;
+}
+
+.btn-add i {
+  pointer-events: none;
 }
 .fa-plus {
   padding: 6px 6px;
