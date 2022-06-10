@@ -98,7 +98,26 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0 20px;
+  padding: 0 20px 60px;
+  justify-content: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #dfdddd;
+  height: calc(100vh - 360px);
+}
+
+.page h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.page i {
+  margin-bottom: 20px;
 }
 
 .movie-card {
@@ -106,6 +125,7 @@ button {
   background-color: #fff;
   box-shadow: 0px 5px 20px 0px rgb(0, 0, 0, 0.1);
   display: flex;
+  width: 100%;
 }
 
 .poster {
@@ -119,6 +139,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 .top {
