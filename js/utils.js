@@ -11,7 +11,7 @@ function displayResults(arr) {
     <div class="top">
       <p class="movie-title">${Title} (${Year})</p>
       <p class="movie-rating"><i class="fa-solid fa-star"></i> ${imdbRating}</p>
-      <button id="${imdbID}" class="btn-add" >
+      <button id="${imdbID}" class="btn-toggle btn-add" >
         <i class="fa-solid fa-plus"></i><span>Watchlist</span>
       </button>
     </div>
@@ -31,7 +31,6 @@ function displayResults(arr) {
   </div>
   </div>`;
   content.innerHTML += card;
-  console.log(pageResults);
 }
 
 export { displayResults };

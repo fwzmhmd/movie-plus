@@ -188,24 +188,38 @@ button {
   border-left: 3px solid #858585;
 }
 
-button.btn-add {
+button.btn-toggle {
   margin-left: auto;
   font-size: 14px;
   font-weight: 500;
-  background-color: #03a9f4;
   color: #fff;
 }
 
-.btn-add span {
+button.btn-toggle > i {
+  padding: 6px 6px;
+  font-weight: bold;
+}
+
+button.btn-add {
+  background-color: #03a9f4;
+}
+button.btn-remove {
+  background-color: #ff2121;
+}
+
+.btn-toggle span {
   padding: 0 6px;
   pointer-events: none;
 }
 
-.btn-add i {
+.btn-toggle i {
   pointer-events: none;
 }
+
 .fa-plus {
-  padding: 6px 6px;
-  font-weight: bold;
   background-color: #0070cd;
+}
+
+.fa-minus {
+  background-color: #8e0000;
 }
