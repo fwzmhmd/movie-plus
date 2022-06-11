@@ -4,12 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Watchlist - Movie Plus</title>
   </head>
   <body>
-    <h1><a href="index.html">search page</a></h1>
+    <div id="heading">
+      <h1>My Watchlist</h1>
+      <button class="btn-watchlist">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        <a href="index.html">Search</a>
+      </button>
+    </div>
 
-    <script type="module" src="js/main.js"></script>
+    <div id="content">
+      <div class="page">
+        <i class="fa-solid fa-heart-crack fa-5x"></i>
+        <h2>Your watchlist is looking a little empty</h2>
+      </div>
+    </div>
+
+    <script type="module" src="js/watchlist.js"></script>
   </body>
 </html>
