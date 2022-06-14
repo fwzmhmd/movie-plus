@@ -1,4 +1,4 @@
-import config from '../config.json' assert { type: 'json' };
+// import config from '../config.json' assert { type: 'json' };
 import { displayResults } from './utils.js';
 
 const api = `http://www.omdbapi.com/?apikey=a6627ba0&type=movie`;
