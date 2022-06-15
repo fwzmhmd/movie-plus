@@ -1,7 +1,7 @@
 // import config from '../config.json' assert { type: 'json' };
 import { displayResults } from './utils.js';
 
-const api = `http://www.omdbapi.com/?apikey=a6627ba0&type=movie`;
+const api = `https://www.omdbapi.com/?apikey=a6627ba0&type=movie`;
 const form = document.querySelector('form');
 const input = document.querySelector('form input');
 const pageResults = [];
